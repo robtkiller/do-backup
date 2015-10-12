@@ -1,0 +1,11 @@
+[security]
+token=##YOUR DigitalOcean TOKEN HERE##
+host=##YOUR HOSTNAME##
+username=root
+port=22  
+
+[settings]
+snapshot_name=dev_daily
+ignore=master
+loglevel=INFO
+
