@@ -1,3 +1,7 @@
+#!/usr/bin/env python
+
+import sys
+import os
 import digitalocean
 from operator import attrgetter
 import time
@@ -6,6 +10,7 @@ import datetime as dt
 import paramiko
 import ConfigParser
 
+os.chdir(os.path.dirname(sys.argv[0]))
 
 '''Load Configs'''
 config = ConfigParser.RawConfigParser()
